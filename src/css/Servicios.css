@@ -1,0 +1,11 @@
+/*Le damos formato móvil*/
+
+@media screen and (min-width:1025px) {
+
+    .contenedorServicios {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+}
