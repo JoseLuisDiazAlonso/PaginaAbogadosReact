@@ -1,6 +1,7 @@
+// Header.js
 import React from 'react';
-import '../css/Header.css'
-
+import '../css/Header.css';
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
@@ -13,23 +14,19 @@ function Header() {
                         </div>
 
                         <div className='menu'>
-                            <ul>
-                                <li><a href='Inicio.js'>Inicio</a></li>
-                                <li><a href='Servicios.js'>Servicios</a></li>
-                                <li><a href='Contacto.js'>Contacto</a></li>
-                            </ul>
-
+                            <nav>
+                                <ul>
+                                    <li><Link to='/'>Inicio</Link></li>
+                                    <li><Link to='/Servicios'>Servicios</Link></li>
+                                    <li><Link to='/Contacto'>Contacto</Link></li>
+                                </ul>
+                            </nav>
                         </div>
                     </div>
-
-
                 </div>
             </div>
-
         </header>
-
     );
-
 }
 
 export default Header;
