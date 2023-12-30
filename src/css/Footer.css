@@ -1,0 +1,52 @@
+
+footer {
+    background-color: rgb(237, 130, 8);
+}
+
+.pie {
+   justify-content: left;
+
+}
+
+.pie li {
+    /*Eliminamos el estilo de lista.*/
+    list-style: none;
+
+}
+
+.pie a {
+    /*Eliminamos el estilo de los enlaces*/
+    text-decoration: none;
+    color: black;
+}
+
+p { /*Negrita al p*/
+   font-weight: bold;
+}
+
+a {
+    font-weight: bold;
+}
+
+/*Ahora le damos formato de Tablet*/
+
+@media  screen and (min-width: 768px) and (max-width:1024px) {
+    .pie, .direccion, .contacto {
+        display: inline-flexbox;
+        text-align: center;
+    }
+    
+}
+
+/*Ahora le damos formato de ordenador portatil y de Sobremesa*/
+
+@media screen and (min-width: 1025px) {
+    .pie, .direccion, .contacto {
+        display: inline-flexbox;
+        text-align: center;
+
+    }
+}
+
+
+
