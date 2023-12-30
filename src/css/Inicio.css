@@ -1,0 +1,48 @@
+/*Creamos una linea debajo de los títulos h2*/
+
+h2 {
+    border-bottom: 1px solid saddlebrown;
+}
+
+/*Ahora le damos formato para la visión desde un portatil u ordenador de sobremesa*/
+
+@media screen and (min-width:1025px) {
+
+   .contenedorInicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .imagen1, .texto1  {
+    display: inline-block;
+   }
+
+   .imagen1 {
+    width: 50%;
+    margin-left: 50px;
+   }
+
+   .texto1 {
+    width: 50%;
+    display: inline-flex;
+    margin-left: 500px;
+    
+   }
+
+   .texto2 {
+    width: 50%;
+    display: inline-flex;
+
+   }
+
+   .imagen2 {
+    width: 50%;
+    display: inline-flex;
+
+   }
+
+   img {
+    margin-left: 100px;
+   }
+}
