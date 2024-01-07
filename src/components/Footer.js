@@ -25,9 +25,7 @@ function Footer() {
 
                             </div>
 
-                            <div className='contacto'>
-                                <a href='Contacto.js'>Contacto</a>
-                            </div>
+
 
 
 
