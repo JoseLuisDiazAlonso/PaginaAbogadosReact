@@ -1,0 +1,52 @@
+.contendor {
+    overflow-x: hidden;
+}
+
+.datos label {
+    /*Distribuimos todos los elementos del formulario en un solo bloque.*/
+    display: block;
+}
+
+h2 {
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    width: 100vw;
+    align-items: left;
+    justify-content: left;
+
+}
+
+legend {
+    font-weight: bold;
+}
+
+button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/*Le damos formato para tablet a la página.*/
+
+@media screen and (min-width:768px) {
+    .datos {
+        padding-block-end: 50px;
+    }
+}
+
+/*Le damos formato para ordenador y ordenador de sobremesa*/
+
+@media screen and (min-width: 1023px) {
+
+    .contenedor {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+}
